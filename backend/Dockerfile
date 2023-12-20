@@ -10,7 +10,7 @@ COPY . .
 # Set the working directory
 WORKDIR /backend
 
-RUN rm poetry.lock
+# RUN rm poetry.lock
 
 RUN pip install .
 
